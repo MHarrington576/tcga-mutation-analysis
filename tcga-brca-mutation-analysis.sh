@@ -15,7 +15,7 @@
 
 # Copy all MAF files into PWD
 for i in */;
-do cp $i/*.maf.gz ./
+do cp $i/*.maf.gz ./;
 done
 
 # Gunzip all MAF.GZ files in PWD, echo the name of the file, and count the number of times that “TP53” appears in the file
